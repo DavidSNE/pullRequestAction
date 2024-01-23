@@ -10,4 +10,9 @@ class PullRequestTestsApplicationTests {
     void contextLoads() {
     }
 
+    @Test
+    void fail() {
+        throw new RuntimeException("Failed");
+    }
+
 }
